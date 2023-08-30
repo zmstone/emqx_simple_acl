@@ -1,0 +1,11 @@
+{application, emqx_simple_acl,
+ [{description, "My simple ACL."},
+  {vsn, "0.1.0"},
+  {modules, []},
+  {registered, [emqx_simple_acl_sup]},
+  {applications, [kernel, stdlib, map_sets]},
+  {mod, {emqx_simple_acl_app, []}},
+  {env, []},
+  {licenses, ["Apache-2.0"]},
+  {maintainers, ["Zaiming (Stone) Shi <zmstone@gmail.com>"]}
+ ]}.
